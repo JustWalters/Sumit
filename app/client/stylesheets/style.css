@@ -92,3 +92,109 @@ body {
     text-decoration: none;
     background: rgba(0, 0, 0, 0.1);
 }
+
+/*These are mine, and I need to fix them!
+*/
+/*.divider {
+    border-left: 1px solid #38546d;
+    background: #16222c;
+    width: 2px;
+    height: 15px;
+    }*/
+
+    .left-well {
+        border: 1px solid red;
+        width: 30%;
+        height: 100%;
+    }
+
+    .divider {
+        border-left: 1px solid black;
+        height: 100%;
+    }
+
+    .well-text {
+        border: 1px solid blue;
+
+    }
+
+    /*userProfile stuff*/
+/*.row {
+    max-height: 50%;
+}
+*/
+.picWrapper {
+    padding: 20px;
+    background-color: #D3D3D3;
+    text-align: center;
+    color: #DAA520;
+}
+
+.picWrapper img {
+    max-width: 100%;
+    margin: auto
+}
+
+.info {
+    width: 80%;
+    word-spacing: 3pt;
+}
+
+.focusAreas {
+    background-color: #D3D3D3;
+}
+
+.stats {
+    margin: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 15px;
+}
+
+.stats h5 {
+    color: DodgerBlue;
+}
+
+.stats img {
+    max-width: 100px;
+    max-height: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.stats > div {
+  background-color: #fff;
+  border-radius: 14px;
+  margin-bottom: 8px;
+}
+
+.stats .col-md-4 {
+    padding-top: 10px;
+    text-align: right;
+}
+
+
+.topContributions {
+    list-style-type: square;
+}
+
+.topContributions row {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.topContributions .title { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.topContributions .title:before {
+    content: "■";
+    padding-right: 7px;
+    color: blue; 
+}
+
+.points {
+    text-align: right;
+}
