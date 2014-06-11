@@ -69,6 +69,6 @@ Template.organizationProfile.helpers({
     return 1021;
   },
   contributions: function() {
-    return [{name: "Process Paper 1", points: 1512}, {name: "Publication 1", points: 921}, {name: "Publication 2", points: 632}];
+    return [{name: "Process Paper 1", points: 1512}, {name: "Publication 1", points: 921}, {name: "Publication 2", points: 632}, {name: "Process Paper 1", points: 1512}, {name: "Publication 1", points: 921}, {name: "Publication 2", points: 632}, {name: "Process Paper 1", points: 1512}, {name: "Publication 1", points: 921}, {name: "Publication 2", points: 632}, {name: "Process Paper 1", points: 1512}, {name: "Publication 1", points: 921}, {name: "Publication 2", points: 632}];
   }
 }); 

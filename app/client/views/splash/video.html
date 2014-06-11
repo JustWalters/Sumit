@@ -1,20 +1,5 @@
 <template name="video">
-
-<!-- 	<div id="wrapper" style="width:50%;height:50%;position:absolute;top:0">
-		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="780" height="315">
-			<param name="movie" value="http://www.youtube.com/v/kPDnw3_1GOI?enablejsapi=1&playerapiid=ytplayer&version=3&rel=0&autohide=1&modestbranding=1&showinfo=0" />
-			<!-[if !IE]>->
-			<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/kPDnw3_1GOI?enablejsapi=1&playerapiid=ytplayer&version=3&rel=0&autohide=1&modestbranding=1&showinfo=0" width="780" height="315" style="width:100%;height:100%">
-				<!-<![endif]->
-				<p>You need Flash player 8+ and JavaScript enabled to view this video.</p>
-				<!-[if !IE]>->
-			</object>
-			<!-<![endif]->
-		</object>
-	</div>
- -->
-
-	<div id="wrapper" style="width:100%;height:100%;position:absolute;top:0;left:0">
-		<iframe id="ytplayer" height="315" src="//www.youtube-nocookie.com/embed/dRjE1JwdDLI?rel=0&enablejsapi=1&origin=http://the-sumit-intro-pages.meteor.com" frameborder="0" style="width:100%;height:100%" autohide=1 modestbranding=1 playsinline=1 showinfo=0  allowfullscreen  seamless></iframe>
+	<div id="video-wrapper">
+		<div id="player" style="position: absolute; height: 100%; width: 100%; left: 0"></div>
 	</div> 
 </template>

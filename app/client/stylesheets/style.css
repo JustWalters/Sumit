@@ -6,8 +6,8 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
 }
 body {
-    background: #eee;
-    color: #666666;
+/*    background: #eee;
+*/    color: #666666;
 }
 .navbar { margin-bottom: 10px }
 .navbar .navbar-inner {
@@ -93,41 +93,15 @@ body {
     background: rgba(0, 0, 0, 0.1);
 }
 
-/*These are mine, and I need to fix them!
-*/
-/*.divider {
-    border-left: 1px solid #38546d;
-    background: #16222c;
-    width: 2px;
-    height: 15px;
-    }*/
 
-    .left-well {
-        border: 1px solid red;
-        width: 30%;
-        height: 100%;
-    }
 
-    .divider {
-        border-left: 1px solid black;
-        height: 100%;
-    }
-
-    .well-text {
-        border: 1px solid blue;
-
-    }
-
-    /*userProfile stuff*/
-/*.row {
-    max-height: 50%;
-}
-*/
+/*Profiles*/
 .picWrapper {
     padding: 20px;
-    background-color: #D3D3D3;
+    color: #999999;
+    background-color: whitesmoke;
+    border-color: #dddddd;
     text-align: center;
-    color: #DAA520;
 }
 
 .picWrapper img {
@@ -140,8 +114,15 @@ body {
     word-spacing: 3pt;
 }
 
+.info img {
+    width: 25px;
+    max-height: 25px;
+}
+
 .focusAreas {
-    background-color: #D3D3D3;
+    color: #999999;
+    background-color: whitesmoke;
+    border-color: #dddddd;
 }
 
 .stats {
@@ -164,7 +145,8 @@ body {
 
 .stats > div {
   background-color: #fff;
-  border-radius: 14px;
+  border-radius: 10px;
+  border: 1px solid silver;
   margin-bottom: 8px;
 }
 
@@ -197,4 +179,103 @@ body {
 
 .points {
     text-align: right;
+}
+
+
+/*Splash page*/
+#video-wrapper {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -6em;
+    left: 50%;
+    margin-left: -45%;
+}
+
+
+
+.mission#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -200px;
+    height: 20%;
+}
+
+.mission#text {
+    position: relative;
+    top: -140px;
+    font-size: 20px;
+}
+
+.mission#more {
+    font-size: 15px;
+    color: gray;
+}
+
+
+
+.project {
+    padding: 15px;
+    margin-top: 1px;
+    border-radius: 10px;
+    text-align: left; 
+    position: relative;
+    top: -70px;
+}
+
+.project img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: auto;
+}
+
+.project .title {
+    font-size: 18pt;
+}
+
+.project button {
+ float: right;
+ color: white;
+ margin-bottom: 5px;
+}
+
+.project .join {
+    position: relative;
+    left: -15px;
+}
+
+.project .learn-more {
+    background-color: MediumPurple;
+}
+
+.divider {
+    border-left:1px solid black; 
+    height:auto;
+    min-height: 120px;
+    margin: 0 auto;
+    float: left; 
+    width:10px;
+}
+
+/*.inactive {
+    position: relative;
+   box-shadow: 0 0 0 9999px rgba(0,0,0,0.5) inset;
+}
+
+/*.inactive .col {
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5) inset;
+}*/
+
+.global-challenges .title {
+    color: #B0C4DE;
+}
+
+.literature-curation .title {
+  color: #f0ad4e;
+}
+
+.open-innovation .title {
+    color: SeaGreen;
 }

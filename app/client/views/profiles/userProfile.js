@@ -66,6 +66,6 @@ Template.userProfile.helpers({
     return 213;
   },
   contributions: function() {
-    return [{name: "Concept Note 1", points: 1211}, {name: "Comment 1", points: 911}, {name: "Comment 2", points: 751}];
+    return [{name: "Concept Note 1", points: 1211}, {name: "Comment 1", points: 911}, {name: "Comment 2", points: 751}, {name: "Concept Note 1", points: 1211}, {name: "Comment 1", points: 911}, {name: "Comment 2", points: 751}, {name: "Concept Note 1", points: 1211}, {name: "Comment 1", points: 911}, {name: "Comment 2", points: 751}, {name: "Concept Note 1", points: 1211}, {name: "Comment 1", points: 911}, {name: "Comment 2", points: 751}, {name: "Comment 2", points: 751}];
   }
 }); 
