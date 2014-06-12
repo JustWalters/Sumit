@@ -6,8 +6,8 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
 }
 body {
-/*    background: #eee;
-*/    color: #666666;
+    /*background: #eee;*/
+    color: #666666;
 }
 .navbar { margin-bottom: 10px }
 .navbar .navbar-inner {
@@ -96,7 +96,7 @@ body {
 
 
 /*Profiles*/
-.picWrapper {
+.profPicWrapper {
     padding: 20px;
     color: #999999;
     background-color: whitesmoke;
@@ -104,7 +104,7 @@ body {
     text-align: center;
 }
 
-.picWrapper img {
+.profPicWrapper img {
     max-width: 100%;
     margin: auto
 }
