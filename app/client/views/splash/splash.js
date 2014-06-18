@@ -20,7 +20,9 @@ Template.video.rendered = function() {
         autohide: 1,
         modestbranding: 1,
         playsinline: 1,
-        showinfo: 0
+        showinfo: 0,
+        cc_load_policy: 1,
+        rel: 0
       },
       events: {
         "onReady": onPlayerReady,
