@@ -184,12 +184,10 @@ body {
 
 /*Splash page*/
 #video-wrapper {
-    height: 90%;
-    width: 90%;
     position: absolute;
-    top: -6em;
-    left: 50%;
-    margin-left: -45%;
+    top: 0;
+    height: 95%;
+    width: 100%;
 }
 
 

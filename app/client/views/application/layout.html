@@ -1,9 +1,13 @@
 <template name="layout">
-  <div class="container">
-    {{> header}}
-    {{> meteorErrors}}
-    <div id="main" class="row-fluid">
-      {{> yield}}
-    </div>
-  </div>
+  {{#if notOnIntro}}
+  	<div class="container">
+    	{{> header}}
+    	{{> meteorErrors}}
+    	<div id="main" class="row-fluid">
+      		{{> yield}}
+    	</div>
+  	</div>
+  {{else}}
+  	{{> yield}}
+  {{/if}}
 </template>

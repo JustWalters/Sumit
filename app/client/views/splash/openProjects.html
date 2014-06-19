@@ -1,64 +1,66 @@
 <template name="openProjects">
-	<p style="text-align: left; position: relative; top: -40px">Open <img src="images/logo.png" style="width:200px">Projects</p>
+	<div style="text-align:center;margin-left: 3%;margin-right:3%;">
+		<p style="text-align: left; position: relative; top: -40px">Open <img src="images/logo.png" style="width:200px">Projects</p>
 
-	<p  style="text-align: left; position: relative; top: -40px">Sumits are open source projects under the <a href="">Creative Commons Attribution-Sharealike 3.0 Unported License</a> (CC-BY-SA) and the <a href="">GNU Free Documentation License</a> (GFDL).</p><br>
+		<p  style="text-align: left; position: relative; top: -40px">Sumits are open source projects under the <a href="">Creative Commons Attribution-Sharealike 3.0 Unported License</a> (CC-BY-SA) and the <a href="">GNU Free Documentation License</a> (GFDL).</p><br>
 
-	<div class="panel panel-default row global-challenges project">
-		<div class="col-md-2"> 
-			<img src="images/globe.png"> 
-		</div>
-		<div class="col-md-2 title">Global Challenges Forum
-		</div>
-		<div class="col-md-1 divider"></div>
-		<div class="col-md-7 description">
-			Shape the discussion about the Sustainable Development Goals (SDGs) by identifying the challenges that you face at the policy, organizational, professional, and personal level.<br><br>
+		<div class="panel panel-default row global-challenges project">
+			<div class="col-md-2"> 
+				<img src="images/globe.png"> 
+			</div>
+			<div class="col-md-2 title">Global Challenges Forum
+			</div>
+			<div class="col-md-1 divider"></div>
+			<div class="col-md-7 description">
+				Shape the discussion about the Sustainable Development Goals (SDGs) by identifying the challenges that you face at the policy, organizational, professional, and personal level.<br><br>
 
-			<a>Paricipants:</a> {{participants}}<br>
-			<a>Problems Posted:</a> {{problemsPosted}}
-			<button class="btn learn-more">Learn More</button>
-			<button class="btn join" style="background-color: #B0C4DE">Join</button> <br>
-			<a>Problems Endorsed:</a> {{problemsEndorsed}}
+				<a>Paricipants:</a> {{participants}}<br>
+				<a>Problems Posted:</a> {{problemsPosted}}
+				<button class="btn learn-more">Learn More</button>
+				<button class="btn join" style="background-color: #B0C4DE">Join</button> <br>
+				<a>Problems Endorsed:</a> {{problemsEndorsed}}
+			</div>
 		</div>
-	</div>
-	
-	<div class="panel panel-default row literature-curation project">
-		<div class="col-md-2">
-			<img src="images/pages.png">
+		
+		<div class="panel panel-default row literature-curation project">
+			<div class="col-md-2">
+				<img src="images/pages.png">
+			</div>
+			<div class="col-md-2 title"> Literature Curation Initiave
+			</div>
+			<div class="col-md-1 divider">
+				<div class="coming-soon"><h3>Coming Soon</h3></div>
+			</div><!-- TODO either use different style or make height dynamic -->
+			<div class="col-md-7 description">
+				Help us annotate and index technical solutions and reports published by the Sustainable Development Solutions Network, the World Development Journal, and other related publications.<br><br>
+				
+				<a>Participants:</a> {{participants}}<br>
+				<a>Pdfs Indexed:</a> {{pdfsIndexed}}<br>
+				<a>Pdfs Annotated:</a> {{pdfsAnnotated}}
+				<button class="btn learn-more" disabled="disabled">Learn More</button>
+				<button class="btn join" disabled="disabled" style="background-color: #f0ad4e">Join</button> <br>
+				<a>Pdfs Uploaded:</a> {{pdfsUploaded}}
+			</div>
 		</div>
-		<div class="col-md-2 title"> Literature Curation Initiave
-		</div>
-		<div class="col-md-1 divider">
-					<div class="coming-soon"><h3>Coming Soon</h3></div>
-		</div><!-- TODO either use different style or make height dynamic -->
-		<div class="col-md-7 description">
-			Help us annotate and index technical solutions and reports published by the Sustainable Development Solutions Network, the World Development Journal, and other related publications.<br><br>
-			
-			<a>Participants:</a> {{participants}}<br>
-			<a>Pdfs Indexed:</a> {{pdfsIndexed}}<br>
-			<a>Pdfs Annotated:</a> {{pdfsAnnotated}}
-			<button class="btn learn-more" disabled="disabled">Learn More</button>
-			<button class="btn join" disabled="disabled" style="background-color: #f0ad4e">Join</button> <br>
-			<a>Pdfs Uploaded:</a> {{pdfsUploaded}}
-		</div>
-	</div>
 
-	<div class="panel panel-default row open-innovation project">
-		<div class="col-md-2">
-			<img src="images/lightbulb.png">
-		</div>
-		<div class="col-md-2 title"> Open Innovation Collaborative
-		</div>
-		<div class="col-md-1 divider">
-			<div class="coming-soon"><h3>Coming Soon</h3></div>
-		</div>
-		<div class="col-md-7 description">
-			Collaborate with us in designing the architecture of an online collaboration tool by conceptualizing, developing, and proposing ideas to solve the problems identified by the Global Challenges Forum.<br><br>
+		<div class="panel panel-default row open-innovation project">
+			<div class="col-md-2">
+				<img src="images/lightbulb.png">
+			</div>
+			<div class="col-md-2 title"> Open Innovation Collaborative
+			</div>
+			<div class="col-md-1 divider">
+				<div class="coming-soon"><h3>Coming Soon</h3></div>
+			</div>
+			<div class="col-md-7 description">
+				Collaborate with us in designing the architecture of an online collaboration tool by conceptualizing, developing, and proposing ideas to solve the problems identified by the Global Challenges Forum.<br><br>
 
-			<a>Individuals Participating:</a> {{indParticipants}}<br>
-			<a>Organizations Participating:</a> {{orgParticipants}}
-			<button class="btn learn-more" disabled="disabled">Learn More</button>
-			<button class="btn join" disabled="disabled" style="background-color: SeaGreen">Join</button> <br>
-			<a>Proposals Published / Implemented:</a> {{publishedProposals}} / {{implementedProposals}}
+				<a>Individuals Participating:</a> {{indParticipants}}<br>
+				<a>Organizations Participating:</a> {{orgParticipants}}
+				<button class="btn learn-more" disabled="disabled">Learn More</button>
+				<button class="btn join" disabled="disabled" style="background-color: SeaGreen">Join</button> <br>
+				<a>Proposals Published / Implemented:</a> {{publishedProposals}} / {{implementedProposals}}
+			</div>
 		</div>
 	</div>
 </template>
