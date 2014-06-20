@@ -184,10 +184,7 @@ body {
 
 /*Splash page*/
 #video-wrapper {
-    position: absolute;
-    top: 0;
-    height: 95%;
-    width: 100%;
+   height: 95%;
 }
 
 
@@ -196,19 +193,17 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    top: -200px;
     height: 20%;
 }
 
 .mission#text {
-    position: relative;
-    top: -140px;
-    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    font-size: 24px;
 }
 
 .mission#more {
-    font-size: 15px;
+    font-size: 20px;
     color: gray;
 }
 
@@ -222,13 +217,13 @@ body {
     border-radius: 10px;
     text-align: left; 
     position: relative;
-    top: -40px;
+  /*  top: -40px;*/
 }       
 
 .project img {
     max-width: 100px;
     max-height: 100px;
-    margin: auto;
+    margin-left: 30px;
 }
 
 .project .title {
@@ -253,10 +248,16 @@ body {
 .divider {
     position: static;
     border-left:1px solid black; 
-    height:auto;
     min-height: 120px;
     margin: 0 auto;
-    float: left; 
+    width:10px;
+}
+
+.long-divider {
+    position: static;
+    border-left:1px solid black; 
+    min-height: 140px;
+    margin: 0 auto;
     width:10px;
 }
 
