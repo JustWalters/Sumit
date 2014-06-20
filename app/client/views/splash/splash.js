@@ -34,7 +34,7 @@ Template.video.rendered = function() {
 
   //Autoplays the video. Bad idea?
   function onPlayerReady(event) {
-    event.target.playVideo();
+    //event.target.playVideo();
   }
 
   function onPlayerStateChange(event) {
