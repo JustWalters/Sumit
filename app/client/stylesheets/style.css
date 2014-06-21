@@ -144,10 +144,10 @@ body {
 }
 
 .stats > div {
-  background-color: #fff;
-  border-radius: 10px;
-  border: 1px solid silver;
-  margin-bottom: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid silver;
+    margin-bottom: 8px;
 }
 
 .stats .col-md-4 {
@@ -183,10 +183,36 @@ body {
 
 
 /*Splash page*/
+#sign-in {
+    position:fixed;
+    bottom: 2%;
+    left: 4%;
+    z-index: 15;
+}
+
+.down-arrow {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    height:40px;
+}
+
+
 #video-wrapper {
    height: 95%;
 }
 
+#player {
+   position:absolute;
+   height:92%;
+   width:100%;
+   top:0; 
+}
+
+.video.down-arrow{
+    position:relative;
+    top:-10px;
+}
 
 
 .mission#logo {
@@ -208,7 +234,6 @@ body {
 }
 
 
-
 .project {
     padding: 15px;
     margin-top: 1px;
@@ -217,7 +242,6 @@ body {
     border-radius: 10px;
     text-align: left; 
     position: relative;
-  /*  top: -40px;*/
 }       
 
 .project img {
@@ -231,9 +255,9 @@ body {
 }
 
 .project button {
-   float: right;
-   color: white;
-   margin-bottom: 5px;
+    float: right;
+    color: white;
+    margin-bottom: 5px;
 }
 
 .project .join {
@@ -275,7 +299,7 @@ body {
 }
 
 .comingsoon h3 {
-    z-index: 20;
+    z-index: 11;
     top: 50%;
 }
 
@@ -284,7 +308,7 @@ body {
 }
 
 .literature-curation .title {
-  color: #f0ad4e;
+    color: #f0ad4e;
 }
 
 .open-innovation .title {
