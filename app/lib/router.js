@@ -47,18 +47,6 @@ BestPostsListController = PostsListController.extend({
 });
 
 Router.map(function() {
-    this.route('splash', {
-        path: '/splash'
-    });
-
-    this.route('userProfile', {
-        path: '/user'
-    });
-
-    this.route('organizationProfile', {
-        path: '/org'
-    });
-
     this.route('home', {
         path: '/',
         controller: NewPostsListController
@@ -96,6 +84,22 @@ Router.map(function() {
     this.route('postSubmit', {
         path: '/submit',
         disableProgress: true
+    });
+
+    this.route('splash', {
+        path: '/splash'
+    });
+
+    this.route('userProfile', {
+        path: '/user'
+    });
+
+    this.route('organizationProfile', {
+        path: '/org'
+    });
+
+    this.route('signInPage', {
+        path: '/signin'
     });
 
 });

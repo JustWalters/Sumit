@@ -37,7 +37,7 @@ Template.openProjects.events({
 		$("#superContainer").css("top", 0);
 	},
 	"click .join": function() {
-		/*superContainer from fullpage given large negative top when link clicked, not sure why*/
+		/*superContainer from fullpage retains large negative top when link clicked*/
 		$("#superContainer").css("top", 0);
 	}
 });

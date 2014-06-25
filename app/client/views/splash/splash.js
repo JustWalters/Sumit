@@ -44,6 +44,7 @@ Template.video.rendered = function() {
 
 Template.splash.events({
   "click #sign-in": function(e) {
-
+/*superContainer from fullpage retains large negative top when link clicked*/
+    $("#superContainer").css("top", 0);
   }
 });
