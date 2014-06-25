@@ -16,12 +16,12 @@
 
 				<a>Paricipants:</a> {{participants}}<br>
 				<a>Problems Posted:</a> {{problemsPosted}}
-				<button class="btn learn-more">Learn More</button>
-				<button class="btn join" style="background-color: #B0C4DE">Join</button> <br>
+				<a class="btn learn-more" id="learn-global-challenges">Learn More</a>
+				<a href="{{pathFor 'home'}}" class="btn join" id="join-global-challenges">Join</a> <br>
 				<a>Problems Endorsed:</a> {{problemsEndorsed}}
 			</div>
 		</div>
-		
+
 		<div class="panel panel-default row literature-curation project">
 			<div class="col-md-2">
 				<img src="images/pages.png">
@@ -37,8 +37,9 @@
 				<a>Participants:</a> {{participants}}<br>
 				<a>Pdfs Indexed:</a> {{pdfsIndexed}}<br>
 				<a>Pdfs Annotated:</a> {{pdfsAnnotated}}
-				<button class="btn learn-more" disabled="disabled">Learn More</button>
-				<button class="btn join" disabled="disabled" style="background-color: #f0ad4e">Join</button> <br>
+				<a class="btn learn-more" id="learn-literature-curation" disabled="disabled">Learn More</a>
+				<a class="btn join" id="join-literature-curation"
+				disabled="disabled">Join</a> <br>
 				<a>Pdfs Uploaded:</a> {{pdfsUploaded}}
 			</div>
 		</div>
@@ -57,8 +58,8 @@
 
 				<a>Individuals Participating:</a> {{indParticipants}}<br>
 				<a>Organizations Participating:</a> {{orgParticipants}}
-				<button class="btn learn-more" disabled="disabled">Learn More</button>
-				<button class="btn join" disabled="disabled" style="background-color: SeaGreen">Join</button> <br>
+				<button class="btn learn-more" id="learn-open-innovation" disabled="disabled">Learn More</button>
+				<button class="btn join" id="join-open-innovation" disabled="disabled">Join</button> <br>
 				<a>Proposals Published / Implemented:</a> {{publishedProposals}} / {{implementedProposals}}
 			</div>
 		</div>

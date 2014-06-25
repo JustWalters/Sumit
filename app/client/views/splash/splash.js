@@ -5,8 +5,6 @@ Template.splash.rendered = function() {
 };
 
 Template.video.rendered = function() {
-
-
   var tag = document.createElement("script");
 
   tag.src = "https://www.youtube.com/iframe_api";
@@ -33,13 +31,19 @@ Template.video.rendered = function() {
   };
 
   //Autoplays the video. Bad idea?
-  function onPlayerReady(event) {
-    //event.target.playVideo();
+  function onPlayerReady(e) {
+    //e.target.playVideo();
   }
 
-  function onPlayerStateChange(event) {
-    if (event.data == YT.PlayerState.ENDED) {
+  function onPlayerStateChange(e) {
+    if (e.data == YT.PlayerState.ENDED) {
       $.fn.fullpage.moveSectionDown();
     }
   }
 };
+
+Template.splash.events({
+  "click #sign-in": function(e) {
+
+  }
+});

@@ -254,7 +254,7 @@ body {
     font-size: 18pt;
 }
 
-.project button {
+.project .btn {
     float: right;
     color: white;
     margin-bottom: 5px;
@@ -267,6 +267,18 @@ body {
 
 .project .learn-more {
     background-color: MediumPurple;
+}
+
+#join-global-challenges {
+    background-color: #B0C4DE;
+}
+
+#join-literature-curation {
+    background-color: #f0ad4e;
+}
+
+#join-open-innovation {
+    background-color: SeaGreen;
 }
 
 .divider {

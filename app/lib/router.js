@@ -48,7 +48,15 @@ BestPostsListController = PostsListController.extend({
 
 Router.map(function() {
     this.route('splash', {
-        path: '/test'
+        path: '/splash'
+    });
+
+    this.route('userProfile', {
+        path: '/user'
+    });
+
+    this.route('organizationProfile', {
+        path: '/org'
     });
 
     this.route('home', {

@@ -30,3 +30,14 @@ Template.openProjects.helpers({
 		return 19;
 	},
 });
+
+Template.openProjects.events({
+	/*Seperated in case learn-more triggers popup screen in future*/
+	"click .learn-more": function() {
+		$("#superContainer").css("top", 0);
+	},
+	"click .join": function() {
+		/*superContainer from fullpage given large negative top when link clicked, not sure why*/
+		$("#superContainer").css("top", 0);
+	}
+});
